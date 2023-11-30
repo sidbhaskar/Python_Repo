@@ -13,3 +13,5 @@ def print_primes(n):
 # Test the function
 n = int(input('Enter the number: '))
 print(f"The first {n} prime numbers are: {print_primes(n)}")
+
+
