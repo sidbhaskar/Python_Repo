@@ -1,7 +1,7 @@
-A = [ [5,4,3] , [2,4,6] , [4,7,9] ]
-B = [ [3,2,4] , [4,3,6] , [2,7,5] ]
+A = [ [4,1,1] , [2,4,6] , [3,3,3] ]
+B = [ [2,2,4] , [4,3,6] , [2,7,5] ]
 
-multiResult = [[ 0,0,0] , [0,0,0] , [0,0,0] ]
+multiResult = [[ 0,0,0] , [0,0,0] , [0,0,0]]
 
 for m in range(len(A)):
     for n in range(len(B[0])):
@@ -11,3 +11,4 @@ for m in range(len(A)):
 print("The Multiplication of matrices is: ")
 for res in multiResult:
     print(res)
+
