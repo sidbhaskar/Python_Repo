@@ -12,3 +12,4 @@ emp1 = employee('Harshit',22,1000,100000)
 emp2 = employee('Arjun',24,2000,250000)
 
 print(emp1.__dict__)
+
