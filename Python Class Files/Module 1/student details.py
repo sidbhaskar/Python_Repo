@@ -13,3 +13,4 @@ d={'name':name,'Reg' : Regno,'Subject':l[2:]}
 print(l)
 print(t)
 print(d)
+

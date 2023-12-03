@@ -9,6 +9,5 @@ except ValueError:
     print('Wrong value of age is entered')
 finally:
     print('Re-run the program')
-    print('Everything is fine')
 
 # WAP to handle the exception handling in ATM debit process, the costomur is tring the withdraw access form the limit
