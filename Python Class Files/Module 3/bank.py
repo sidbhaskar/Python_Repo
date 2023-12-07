@@ -2,26 +2,20 @@ class Bank:
     def __init__(self, balance):
         self.balance = balance
 
-    # Function to handle general balance
     def get_balance(self):
         return self.balance
-
-    # Function to handle savings account balance
     def savings_account(self, debit):
         self.balance -= debit
         return self.balance
 
-    # Function to handle personal loan
     def personal_loan(self, debit):
         self.balance -= debit
         return self.balance
 
-    # Function to handle home loan
     def home_loan(self, debit):
         self.balance -= debit
         return self.balance
 
-# Create a Bank object
 bank = Bank(10000)
 
 print("General balance: ", bank.get_balance())
