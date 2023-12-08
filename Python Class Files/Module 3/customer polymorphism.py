@@ -1,4 +1,4 @@
-# WAP to perform polymorphism using function overloading , bank operation ,general balance, saving acc , personal loan ,home load , balance will be old balance - debit
+# WAP to perform polymorphism using function overloading , bank operation ,general balance, saving acc , personal loan ,home load , balance will be old (balance - debit)
 
 class Customer:
 
