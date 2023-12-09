@@ -1,4 +1,4 @@
-#WAP to implement data hiding and encapsulation properties and fix marks to 100 to create a
+#WAP to implement data hiding and encapsulation properties and fix marks to 100
 
 class Subject :
     def __init__(self):
