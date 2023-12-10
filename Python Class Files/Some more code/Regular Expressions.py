@@ -1,8 +1,9 @@
 import re
 
-s = "Hello this is a python program :)"
+s = "The rain in spain. This is a python program"
+pattern = 'program\Z'
+result = re.findall(pattern,s)
+x = re.findall('ai',s)
 
-match = re.search('is',s)
-
-print("staring : ",match.start())
-print("Ending  : ",match.end())
+print(x)
+print(result)
