@@ -1,0 +1,1 @@
+#WAP to count number of lines words, characters in a text file

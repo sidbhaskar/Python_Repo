@@ -1,0 +1,1 @@
+# WAP that reads data from a file and calculates the percentage of vowels and consonants
