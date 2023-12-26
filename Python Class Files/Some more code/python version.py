@@ -5,4 +5,3 @@ def display_python_version():
     print(f"The Python interpreter version is: {python_version}")
 
 display_python_version()
-
