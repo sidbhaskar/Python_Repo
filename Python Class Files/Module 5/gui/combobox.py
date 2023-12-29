@@ -12,3 +12,5 @@ Combo = ttk.Combobox(frame, values=langs)
 Combo.set('Choose your language')
 Combo.pack(padx=5,pady=5)
 top.mainloop()
+
+

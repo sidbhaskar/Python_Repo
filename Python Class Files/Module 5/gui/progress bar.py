@@ -23,3 +23,5 @@ tree.heading('salary',text='Salary')
 
 read_data()
 root.mainloop()
+
+
