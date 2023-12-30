@@ -1,7 +1,13 @@
-import tkinter
+from tkinter import *
+from tkinter.colorchooser import askcolor
 
-m = tkinter.Tk()
+m = Tk()
 m.title('A very little title')
-button = tkinter.Button(m,text="Stop",width=15, command=m.destroy)
-button.pack()
+m.geometry("500x500")
+def show():
+    color = askcolor()
+    print(color)
+
+B = Button(m, text ="Click", command=show)
+B.pack()
 m.mainloop()
