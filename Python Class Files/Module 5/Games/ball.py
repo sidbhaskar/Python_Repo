@@ -14,6 +14,7 @@ ball_y = screen_height // 2
 ball_x_speed = 5
 ball_y_speed = 5
 # Game loop
+
 running = True
 while running:
     for event in pygame.event.get():
