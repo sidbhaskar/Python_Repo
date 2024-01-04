@@ -14,6 +14,7 @@ square_y = height//2
 square_width = 50
 square_height = 50
 
+
 running = True
 while running :
     for event in pygame.event.get():
