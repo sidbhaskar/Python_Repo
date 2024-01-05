@@ -1,6 +1,5 @@
 import pygame
 
-
 width, height = 800,600
 black = (0,0,0)
 white = (255,255,255)
