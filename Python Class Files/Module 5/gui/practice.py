@@ -1,15 +1,14 @@
 from tkinter import *
 from tkinter.colorchooser import askcolor
 
-m = Tk()
-m.title('A little title')
-m.geometry("500x500")
+top = Tk()
+top.geometry('200x200')
 
-def show():
+def show() :
     color = askcolor()
     print(color)
 
-B = Button(m, text ="Click", command=show)
-B.pack()
-m.mainloop()
-print("Done .")
+b = Button(top , text='Color Chooser', command=show)
+b.place(x=50 , y=50)
+
+top.mainloop()
