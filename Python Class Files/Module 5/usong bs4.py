@@ -1,10 +1,11 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = 'https://www.example.com'
+url = 'https://www.apple.com/'
 response = requests.get(url)
 
-soup = BeautifulSoup(response.content ,"html.parser" )
-
-title = soup.find("title").text
-print('Title : ',title)
+if response.status_code == 200 :
+    html_content = response.text
+    css_content = response.text
+print(html_content)
+print('-------------------------------------------------------------------------------')
