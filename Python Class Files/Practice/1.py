@@ -1,12 +1,8 @@
-class empl :
-    def __init__(self,name,age ):
-        self.name = name
-        self._age= age
-    def show(self):
-        print("Name is ",self.name, "Age is " , self._age)
+import importlib.metadata
+import os
 
-e1 = empl('Ram', 18)
-e1.show()
+package_info = importlib.metadata.metadata('requests')
 
-print(e1.name)
-print(e1._age)
+print(package_info)
+
+info = os.stat('D:\Python Projects\Python Class Files\Module 4\VIT Bhopal')
