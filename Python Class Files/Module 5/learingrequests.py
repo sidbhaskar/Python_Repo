@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = 'https://www.facebook.com'
+url = 'https://www.github.com/jadhavsharad'
 response = requests.get(url)
 
 soup = BeautifulSoup(response.content, "html.parser")
