@@ -1,24 +1,61 @@
-class Employee :
-    def __init__(self,name,age):
-        self.__name = name
-        self.__age = age
+# Import required modules
+from abc import ABC, abstractmethod
 
-    def get_name(self):
-        return self.__name
 
-    def get_age(self):
-        return  self.__age
+# Create Abstract base class
+class Car(ABC):
+    def __init__(self, brand, model, year):
+        self.brand = brand
+        self.model = model
+        self.year = year
 
-    def set_name(self,name):
-        self.__name = name
-        return
 
-    def set_age(self,age):
-        self.__age = age
-        return
+# Create abstract method
+    @abstractmethod
+    def printDetails(self):
+        pass
 
-e1 = Employee(name='Raju', age=22)
-print('Name : ',e1.get_name(), '\nAge : ',e1.get_age())
-e1.set_name('Dugu')
-e1.set_age(23)
-print('Name : ',e1.get_name(), '\nAge : ',e1.get_age())
+
+    # Create concrete method
+    def accelerate(self):
+        print("speed up ...")
+
+
+    def break_applied(self):
+        print("Car stop")
+
+
+    # Create a child class
+class Hatchback(Car):
+
+
+    def printDetails(self):
+        print("Brand:", self.brand);
+        print("Model:", self.model);
+        print("Year:", self.year);
+
+
+    def Sunroof(self):
+        print("Not having this feature")
+
+
+    # Create a child class
+class Suv(Car):
+
+
+    def printDetails(self):
+        print("Brand:", self.brand);
+        print("Model:", self.model);
+        print("Year:", self.year);
+
+
+    def Sunroof(self):
+        print("Available")
+
+
+car1 = Hatchback("Maruti", "Alto", "2022");
+
+car1.printDetails()
+car1.accelerate()
+
+
