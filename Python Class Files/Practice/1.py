@@ -1,8 +1,9 @@
-import importlib.metadata
-import os
+import re
 
-package_info = importlib.metadata.metadata('requests')
-
-print(package_info)
-
-info = os.stat('D:\Python Projects\Python Class Files\Module 4\VIT Bhopal')
+pattern = 'a...s$'
+test_string = 'abyss'
+result = re.match(pattern,test_string)
+if result :
+    print('Matched')
+else :
+    print('nahh')
